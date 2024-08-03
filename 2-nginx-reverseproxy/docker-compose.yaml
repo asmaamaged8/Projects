@@ -11,7 +11,7 @@ services:
     container_name: reverse
 
   app1:
-    build: ./app1
+    image: asmaamaged/app1:v2
     ports: 
       - 8080:80
     container_name: app1
